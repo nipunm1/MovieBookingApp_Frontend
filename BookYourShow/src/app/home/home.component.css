@@ -1,0 +1,29 @@
+.mat-grid-tile:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Customize the box shadow as desired */
+  transition: box-shadow 0.3s; /* Smooth transition when applying the box shadow */
+  transform: scale(1.05);
+}
+.mat-grid-tile{
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+.searchbar{
+  display: flex;
+    margin: 0 auto;
+    display: block;
+}
+.movie-image{
+  display: flex;
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ml-2{
+    margin-left: auto;
+    text-align: center;
+}
+  .mat-grid-list {
+    flex-wrap: wrap;
+    width: 100%; 
+  }
